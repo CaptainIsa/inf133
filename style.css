@@ -1,0 +1,42 @@
+/* Choosing a google font for body content*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite;
+}
+
+
+header {
+    margin-bottom: 30px;
+    background-color: #c07c7c !important;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Replacing a icon for collapse purpose */
+.navbar-toggler {
+    background-color: rgb(247, 158, 158);
+}
+
+/* Change fonts and colors for buttons */
+.nav-item {
+    margin-right: 25px;
+    background-color: rgb(245, 179, 189);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #c07c7c;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
