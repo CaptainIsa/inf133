@@ -7,9 +7,9 @@ EMAIL: qizhit@uci.edu
 -->
 
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Qizhi Tian">
-  <meta name="description" content="This is my portfolio!">
+    <meta charset="utf-8">
+    <meta name="author" content="Qizhi Tian">
+    <meta name="description" content="This is my portfolio!">
   <!--google font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <!--google icon-->
@@ -36,123 +36,63 @@ EMAIL: qizhit@uci.edu
 
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#Qizhi_Portfolio" style="color: rgb(248, 235, 235);">
-            Qizhi's Portfolio
-        </a>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" style="color: rgb(255, 255, 255);">
+                Qizhi's Portfolio
+            </a>
 
-        <!--Use bootstrap tool to organize the layout and generate navigation.-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="material-symbols-outlined" style="color: brown; font-size: 25px;">menu</span>
-        </button>
+            <!--Use bootstrap tool to organize the layout and generate navigation for multiple pages-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-symbols-outlined" style="color: brown; font-size: 25px;">menu</span>
+            </button>
         
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Introduction" style="color: brown;">Introduction</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Projects" style="color: brown;">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Hobbies" style="color: brown;">Hobbies</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-  </header>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#introduction" style="color: rgb(133, 34, 34);">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html" style="color: rgb(133, 34, 34);">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html" style="color: rgb(133, 34, 34);">Hobbies</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
-  <section id="Introduction">
-    <div class="container">
-        <h2>Introduction
-            <!--Insert a smile icon-->
-            <span class="material-symbols-outlined" style="font-size: 50px; color: rgb(220, 70, 95);">sentiment_very_satisfied</span>
-        </h2>
-        <!--Adding my photo with 'alt' description.-->
-        <img src="my_photo.jpg" alt="traveling" class="img-fluid" style="height: 500px;">
-        <p> Hi! I am Qizhi Tian, and you can also call me Yilin. 
-            I'm a student at UCI, majoring in Computer Science. 
-            Here is my portfolio about some of my personal projects and hobbies. 
-            Hope you enjoy reading it! 
-        </p>
-    </div>
-  </section>
-
-
-  <section id="Projects">
-    <div class="container">
-        <h2>Projects
-            <!--Insert a keyboard icon-->
-            <span class="material-symbols-outlined" style="font-size: 50px; color: rgb(129, 51, 64);">keyboard</span>
-        </h2>
-        <div class="project">
-            <em class="project-diagram"></em>
-            <!--Add link for my project instruction, and open in the new page.-->
-            <a href="https://ics.uci.edu/~thornton/ics33/ProjectGuide/Project1/" target="_blank">Calling All Station</a>
-            <p>
-                In this project, my program simulates sending alert and cancel alert between multiple computers. 
-                When one computer receives an alert, it immediately sends it to another computer or computers, but receiving it assumes a delay. 
-                In addition, when the machine receives the command to cancel the alert, 
-                it immediately forwards it to other machines and stops sending the alert again.
-            </p>
-            <a href="https://ics.uci.edu/~thornton/ics33/ProjectGuide/Project0/" target="_blank">Queen State</a>
-            <p>
-                In this project, my program simulates the game called "queen". 
-                In this project, we can add and remove a queen, check the state of a queen, 
-                and check the number of survival queens.
+    <section id="introduction">
+        <div class="container">
+            <h1>Introduction
+                <!--Insert a smile icon-->
+                <span class="material-symbols-outlined" style="font-size: 50px; color: rgb(220, 70, 95);">sentiment_very_satisfied</span>
+            </h1>
+            <!--Adding my photo with 'alt' description.-->
+            <img src="my_photo.jpg" alt="traveling" class="img-fluid" style="height: 500px;">
+            <p> Hi! I am Qizhi Tian, and you can also call me Yilin. 
+                I'm a student at UCI, majoring in Computer Science. 
+                Here is my portfolio about some of my personal projects and hobbies. 
+                Hope you enjoy reading it! 
             </p>
         </div>
-    </div>
-  </section>
+    </section>
 
 
-  <section id="Hobbies">
-    <div class="container">
-        <h2>My Hobbies
-            <!--Insert a music_note icon-->
-            <span class="material-symbols-outlined" style="font-size: 50px; color: rgb(220, 70, 95);">music_note</span>
-        </h2>
-        <!--Adding the audio of my playing-->
-        <audio controls autoplay>
-            <source src="Snowy_Mountains_and_Dawn_of_Spring.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <p>One of my hobbies is playing the Guzheng, a chinese musical instrument. 
-            This is a clip of my playing of "Snowy Mountains and Dawn of Spring". Please enjoy! </p>
-
-        <audio controls autoplay>
-            <source src="The_Silence_Of_Night.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <p>I also like to play the piano. This is a clip of my playing of "The Silence of Night". Please enjoy! </p>
-    </div>
-  </section>
-
-
-  <footer>
-    <div class="container">
-        <p>@ 2024 Qizhi Tian</p>
-    </div>
-  </footer>
+    <footer>
+        <div class="container">
+            <p>@Qizhi Tian 2024</p>
+        </div>
+    </footer>
 
 
   <!--JS for Bootstrap-->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-  <p>
-    <a href="https://validator.w3.org/" target="_blank" style="margin-left: 10px;">
-        W3C validator
-    </a>
-    <a href="https://achecks.org/achecker/" target="_blank" style="margin-left: 10px;">
-        Achecker
-    </a>
-    <a href="https://wave.webaim.org/" target="_blank" style="margin-left: 10px;">
-        Wave checker
-    </a>
-  </p>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
 </body>
 </html>

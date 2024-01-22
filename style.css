@@ -2,12 +2,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: antiquewhite;
+    padding-bottom: 70px;
 }
 
 
 header {
-    margin-bottom: 30px;
-    background-color: #c07c7c !important;
+    margin-bottom: 25px;
+    background-color: #c07c7c;
 }
 
 .navbar-brand {
@@ -28,15 +29,24 @@ header {
     border-radius: 15px;
 }
 
-h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+h1 {
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+img {
+    display: block; 
+    margin: 0 auto 20px auto;
+    max-width: 100%;
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;;
     background-color: #c07c7c;
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 5px;
 }
